@@ -39,8 +39,8 @@
 // }
 
 //5
-const fourInput = document.getElementById("four-input")
-const fourOutnput = document.getElementById("four-output");
-fourInput.addEventListener("input", _.debounce((e)=>{
-fourOutnput.textContent = `Congratulations, ${e.target.value}`
-}, 500))
+// const fourInput = document.getElementById("four-input")
+// const fourOutnput = document.getElementById("four-output");
+// fourInput.addEventListener("input", _.debounce((e)=>{
+// fourOutnput.textContent = `Congratulations, ${e.target.value}`
+// }, 500))
