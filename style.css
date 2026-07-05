@@ -1,0 +1,51 @@
+/* div{
+    padding: 30px;
+}
+.parent{
+    background-color: red;
+}
+.child{
+    background-color: green;
+}
+.target{
+    background-color: yellow;
+}
+.btn{
+    padding: 10px;
+    margin: 5px;
+    
+} */
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.done p {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  cursor: pointer;
+}
+.to-do-check{
+    appearance: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(210, 154, 255);
+}
+.to-do-check:checked{
+    background-color: rgb(75, 61, 90);
+}
