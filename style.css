@@ -15,7 +15,7 @@
     margin: 5px;
     
 } */
-body {
+/* body {
   font-family: Arial, sans-serif;
   padding: 30px;
 }
@@ -48,4 +48,102 @@ button {
 }
 .to-do-check:checked{
     background-color: rgb(75, 61, 90);
+} */
+/* body {
+  padding: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 500px;
+}
+
+.lazy-img {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #ccc;
+  object-fit: cover;
+}
+.box{
+  opacity: 0;
+  width: 300px;
+  height: 300px;
+  transform: translateY(100px);
+  transition: 0.3s;
+  background-color: blueviolet;
+}
+.box.show{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card{
+  height: 400px;
+}
+.fruits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fruits-list li {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.fruits-list img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.fruits-list h3 {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #333;
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+} */
+.card {
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  transition: 0.4s;
+}
+.big {
+  height: 400px;
+  width: 400px;
+  background-color: blueviolet;
+}
+.active {
+  background: tomato;
+  color: white;
+}
+.change{
+  background-color: aquamarine;
+}
+.card img{
+  opacity: 0;
+  transition: 0.5s;
+  width: 200px;
+}
+.change img{
+  opacity: 1;
+  width: 200px;
 }

@@ -55,13 +55,13 @@
 // }
 
 //5
-const input = document.querySelector("#input")
-const output = document.querySelector("#output");
-input.addEventListener("input", _.debounce(check, 100))
-function check(){
-    const value = input.value
-    const length = value.length>=8? 'Є 8 символів' : "Нема 8 символів"
-    const number = /\d/.test(value) ? 'Є число' : "Нема числа"
-    const bigLetter = /[A-Z]/.test(value)? 'Є велика літера' : "Нема великої літери"
-    output.textContent = `${length}, ${number}, ${bigLetter}`
-}
+// const input = document.querySelector("#input")
+// const output = document.querySelector("#output");
+// input.addEventListener("input", _.debounce(check, 100))
+// function check(){
+//     const value = input.value
+//     const length = value.length>=8? 'Є 8 символів' : "Нема 8 символів"
+//     const number = /\d/.test(value) ? 'Є число' : "Нема числа"
+//     const bigLetter = /[A-Z]/.test(value)? 'Є велика літера' : "Нема великої літери"
+//     output.textContent = `${length}, ${number}, ${bigLetter}`
+// }
